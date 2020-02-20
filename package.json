@@ -1,0 +1,25 @@
+{
+  "name": "koa-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.koa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 1.koa.js",
+    "double": "node 2.koa.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yifeewang/koa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yifeewang/koa/issues"
+  },
+  "homepage": "https://github.com/yifeewang/koa#readme",
+  "devDependencies": {
+    "koa": "file:koa"
+  }
+}
