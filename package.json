@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node 1.koa.js",
-    "double": "node 2.koa.js"
+    "double": "node 2.koa.js",
+    "three": "node 3.koa.js"
   },
   "repository": {
     "type": "git",
