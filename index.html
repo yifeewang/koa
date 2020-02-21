@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/form" method="POST" enctype="application/x-www-form-urlencoded" >
+    <form action="/form" method="POST" enctype="multipart/form-data" >
         用户：<input type="text" name="username">
-        密码<input type="text" name="answer">
+        密码：<input type="text" name="answer">
+        选择文件：<input type="file" name="avater" multiple>
         <button>提交</button>
     </form>
 </body>

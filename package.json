@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node 1.koa.js",
     "double": "node 2.koa.js",
-    "three": "node 3.koa.js"
+    "three": "node 3.koa.js",
+    "four": "node 4.upload.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/yifeewang/koa#readme",
   "devDependencies": {
     "koa": "file:koa"
+  },
+  "dependencies": {
+    "uuid": "^3.4.0"
   }
 }

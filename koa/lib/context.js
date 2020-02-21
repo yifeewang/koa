@@ -17,6 +17,7 @@ defineGetter('request', 'method')
 defineGetter('request', 'path')
 defineGetter('response', 'body')
 defineGetter('response', 'set')
+defineGetter('request', 'get')
 
 defineSetter('response', 'body')
 
